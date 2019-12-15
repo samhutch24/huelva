@@ -1,0 +1,64 @@
+html {
+  background: url(huelvapiersunset.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p , h2 {
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32px;
+}
+
+
+
+.image {width: 100%;
+height: 30vh ;}
+
+
+
+#pic1 {
+  max-width: 30vh;
+  float: left;
+  margin: 4px 10px 0px 0px;
+  border: 1px solid #000000;
+}
+
+.huelva_location_description {display: inline-block;}
+
+#michaelplusofficers , #huelva-pier , #sailing-ships-in-huelva {
+  width: 30vh;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+
+
+
+// google font subsetting, see Heydon Pickering's: http://www.sitepoint.com/joy-of-subsets-web-fonts/
+@import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
+@import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
+@import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Solway&display=swap');
+#
